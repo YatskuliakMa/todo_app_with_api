@@ -2,7 +2,7 @@
 
 A todo list application built with React and TypeScript that stores its data on a remote server. You can add, complete, rename and delete todos, filter them by status, and see friendly error messages when a request to the API fails.
 
-[**Live demo**](https://YatskuliakMa.github.io/todo_app_with_api/) · [Source code](https://github.com/YatskuliakMa/todo_app_with_api)
+[**DEMO LINK**](https://YatskuliakMa.github.io/todo_app_with_api/)
 
 ## Features
 
@@ -72,22 +72,6 @@ The app will be available at [http://localhost:5173](http://localhost:5173).
 | `npm run lint-css` | Lint SCSS files                              |
 | `npm run format`   | Format `.ts` and `.tsx` files with Prettier  |
 | `npm run deploy`   | Build and deploy the app to GitHub Pages     |
-
-## Deployment
-
-The project is deployed to GitHub Pages with `gh-pages`.
-
-1. In `package.json`, change the `homepage` value from `"."` to the repository name:
-
-   ```json
-   "homepage": "/todo_app_with_api"
-   ```
-
-2. Run:
-
-   ```bash
-   npm run deploy
-   ```
 
 ## Notes
 
